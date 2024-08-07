@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="1.html">Video</a></li>
+                <li><a href="2.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <h3>Fill up the form</h3>
+            <form>
+                <label for=""> Name :  <input type="text" placeholder = "Enter Your Name"></label>
+                <label for=""> Email :  <input type="text" placeholder = "example@gmail.com">
+                </label>
+                <label for=""> Phone : <input type="number" placeholder="Enter Your Phone"></label>
+                <fieldset>
+                    <legend>
+                        Pick One
+                    </legend>
+                    <label for=""> <input type="radio" name="1" id="Shaharabi"> Shaharabi
+                    </label>
+                    <label for=""> <input type="radio" name="1" id="Anwar"> Anwar
+                    </label><label for=""> <input type="radio" name="1" id="Tuhin"> Tuhin
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>  Pick Multiple  </legend>
+                    <label for=""> <input type="checkbox" name="" id="Shaharabi">Shaharabi</label>
+                    <label for=""> <input type="checkbox" name="" id="Anwar">Anwar</label>
+                    <label for=""> <input type="checkbox" name="" id="Tuhin">Tuhin</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Spacial Text Box</legend>
+                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
