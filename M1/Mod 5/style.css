@@ -3,6 +3,11 @@
     background-color: blanchedalmond;
     display: flex;
     gap: 5px;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .child{
     border: 2px solid rgb(15, 158, 160);
