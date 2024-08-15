@@ -28,7 +28,7 @@
         rgb(16, 16, 16) -19.5%,
         rgba(16, 16, 16, 0) 100%
         ),
-        url("../Restaurent-web/resources/assets/hero-bg.png");
+        url("resources/assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -162,7 +162,7 @@
 }
 #last{
     height: 450px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.894)) , url(../Restaurent-web/resources/assets/social-bg.png);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.894)) , url(resources/assets/social-bg.png);
     background-color: #ffffff;
     background-size: cover;
     background-position: center;
