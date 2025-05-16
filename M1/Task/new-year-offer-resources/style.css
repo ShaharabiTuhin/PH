@@ -1,0 +1,411 @@
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.newsletter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #fef6f5;
+  border-radius: 50px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.email-input {
+  font-size: 18px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  width: 250px;
+}
+
+.email-input::placeholder {
+  color: #aaa;
+}
+
+.subscribe-button {
+  background-color: #ea3426;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #c72d22;
+}
+
+.svg-image {
+    left: 1114px;
+    right: -99.69px;
+    /* margin-top: 4002px; */
+    margin-bottom: 280px;
+}
+.mail-img {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 150px;
+  height: auto;
+}
+
+.mail{
+    margin-top: 120px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-left: 140px;
+    margin-right: 190px;
+    border-radius: 16px;
+    padding: 50px 0;
+}
+.sub p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sub h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holi-bg{
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.card p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card h6{
+    margin-top: 120px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.holiday p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holiday h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holiday h6{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+.holiday{
+    margin-top: 120px;
+    text-align: center;
+    width: 1320px;
+    height: 986.07px;
+    margin-left: 140px;
+    margin-right: -140px;
+}
+/* .box{
+    width: 463px;
+    height: 463px;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.round{
+    margin-top: 2000px; 
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    justify-content: space-around;
+} */
+ .round {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 2000px 140px 0 140px;
+}
+.round h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.round p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.round h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.round h6{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 463px;
+    height: 463px;
+    border-radius: 50%; /* Makes it round */
+    border: 10px solid red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.circle-image {
+  width: 364.84px;
+  height: 364.84px;
+  object-fit: cover;  
+}
+
+.party{
+    margin-top: 770px;
+    text-align: center;
+}
+.vector{
+    background: url(images/New\ Year\ Photo.png);
+    /* Vector */
+    position: absolute;
+    width: 802.9px;
+    height: 500px;
+    left: 399px;
+    right: 399px;
+    color: rgb(255, 255, 255);
+}
+.party h1{
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    line-height: 0px;
+}
+.party p{
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0px;
+    color: rgb(255, 0, 0);
+}
+.party h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0%;
+}
+
+.area{
+    display: block;
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    left: 140px;
+    right: -140px;
+    top: 50px;
+    bottom: -50px;
+}
+/* .datearea{
+    margin-left: 140px;
+    margin-right: -140px;
+    top: 0px;
+    bottom: -501.24%;
+
+    place-items: center;
+}
+.date{
+    margin-top: 1400px;
+    position: absolute;
+    width: 1320px;
+    height: 482px; 
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+} */
+ .date {
+    margin-top: 1400px;
+    position: absolute;
+    margin-left: 140px;
+    margin-right: 140px;
+    width: 1320px;
+    height: 482px; 
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+
+    /* Add these lines 👇 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date .red{
+    color: red;
+}
+.main-bg{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+        url('images/Vectorrr.png');
+    border-radius: 16px;
+    margin-top: 1550px;
+    color: white;
+}
+.midnight h1{
+    position: absolute;
+    width: 642px;
+    height: 176px;
+    left: 20.15%;
+    right: 31.21%;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-top: 126px;
+}
+.midnight h5{
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 298px;
+    right: 919px;
+    margin-top: 434px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.midnight p{
+    position: absolute;
+    width: 697px;
+    height: 60px;
+    left: 266px;
+    right: 357px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 326px;
+}
+.header-bg{
+    background-image: 
+        linear-gradient(180deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),
+        url('images/Banner\ Image.png');
+    border-radius: 16px;
+}
+header div{
+    text-align: center;
+    position: absolute;
+}
+header div p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 177px;
+    margin-bottom: none;
+}
+header div h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+}
