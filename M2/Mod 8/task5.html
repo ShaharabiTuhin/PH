@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 5</title>
+    <style>
+        .container {
+            /* display: grid;
+            grid-template-row:  repeat(2, 1fr); */
+            gap: 10px;
+        }
+        .parent{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .extra{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row-reverse;
+        }
+        .child2{
+            padding: 20px;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="parent">
+            <div class="child1"><img src="images/town1.png" alt=""></div>
+            <div class="child2">
+                <h2>Name of Town</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sunt ut alias enim modi quis facilis adipisci provident, vero et, porro, mollitia qui. Magni labore molestiae, possimus vero itaque laboriosam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates hic perspiciatis iusto quia exercitationem architecto, eius debitis ipsam reiciendis odio minus culpa, placeat vero fuga. Accusantium laboriosam quam minima.</p>
+            </div>
+        </div>
+        <div class="parent extra">
+            <div class="child1">
+                <img src="images/town2.png" alt="">
+            </div>
+            <div class="child2">
+                <h2>Name of Town</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sunt ut alias enim modi quis facilis adipisci provident, vero et, porro, mollitia qui. Magni labore molestiae, possimus vero itaque laboriosam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates hic perspiciatis iusto quia exercitationem architecto, eius debitis ipsam reiciendis odio minus culpa, placeat vero fuga. Accusantium laboriosam quam minima.</p> 
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 10px;
+        }
+        .box{
+            padding: 10px;
+            display: flex;
+            gap: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        img{
+            width: 300px;
+        }
+        @media screen and (max-width: 500px) {
+            .box{
+                flex-direction: column;
+                padding: 43px;
+            }
+            img{
+            width: 100%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="box">
+            <div class="food1">
+                <img src="images/food2.png" alt="">
+            </div>
+            <div class="food2">
+                <h3>Title</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, id incidunt quae magni consectetur voluptates odit quisquam animi quibusdam at cupiditate voluptatibus adipisci impedit molestias delectus dolore perferendis porro nemo.</p>
+                <button style="background-color: rgba(48, 110, 255, 0.859);color: azure; border-radius: 3px; border: none; padding: 5px 10px; ">Buy Now</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="food">
+                <img src="images/food3.png" alt="">
+            </div>
+             <div class="food2">
+                <h3>Title</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, id incidunt quae magni consectetur voluptates odit quisquam animi quibusdam at cupiditate voluptatibus adipisci impedit molestias delectus dolore perferendis porro nemo.</p>
+                <button style="background-color: rgba(48, 110, 255, 0.859);color: azure; border-radius: 3px; border: none; padding: 5px 10px;">Buy Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
